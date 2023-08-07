@@ -50,5 +50,13 @@ sum = parseFloat(sum) // to convert float string number to a float
 //******************** javascript Array*/
 
 var arrStarts = ['rahim', 'karim', 'habib', 'sabid', 'rabid', 'devid'];
+var numberArr = [14, 32, 62, 76, 95, 12, 55, 97]
 console.log(arrStarts);
+
+var arrIndexTest = arrStarts[0];
+var arrLengthTest = arrStarts.length;  // array length janar jonno arrayname.length dite hoi
+// console.log(arrStarts[0]); // to find an array vaule using index value// index value diye array er value ber korr niom arrayName[0];
+// console.log(arrLengthTest);
+// console.log(numberArr[5]);
+
 
