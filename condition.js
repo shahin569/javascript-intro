@@ -25,11 +25,11 @@
 //     console.log ('You are not qualified');
 // }
 
-var myMarks = 85;
-var tomMarks = 66;
-var janeMarks = 95;
-var peterMarks = 56;
-var johnMarks = 40;
+// var myMarks = 85;
+// var tomMarks = 66;
+// var janeMarks = 95;
+// var peterMarks = 56;
+// var johnMarks = 40;
 var marks = 95;
 
 if(marks >= 80 && marks ){
