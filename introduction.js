@@ -95,3 +95,6 @@ var sliceTest = pnumber.slice(0,3); // slice diyeo array er vetorer theke nirdio
 
 
 
+
+
+
