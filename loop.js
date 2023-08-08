@@ -46,12 +46,14 @@ var reversArrLoopTest = [11, 22, 33, 44, 55, 66, 77, 88];
 
 for (var i = reversArrLoopTest.length - 1; i >= 0; i-- ) { // reverse array er value ber korte gele -1 dite hobe array er man er sese.
     var element = reversArrLoopTest[i];
-    console.log(element);    
+    // console.log(element);    
 }
 
-// var arr = [1, 2, 3, 4, 5];
+var arr = [1, 2, 3, 4, 5];
  
-// for (var i = arr.length - 1; i >= 0; i--) {
-//     console.log(arr[i]);
-// }
+for (var i = arr.length - 1; i >= 0; i--) {
+    // console.log(arr[i]);
+}
+
+
 
