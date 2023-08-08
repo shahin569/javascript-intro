@@ -18,5 +18,5 @@ for (var index = 0; index < numb.length; index++) {
     if (element > 50) {
         continue;
     }    
-    console.log(element);
+    // console.log(element);
 }
