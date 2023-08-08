@@ -64,6 +64,10 @@ arrStarts[0] = 'hablu'; // index diye kono value ke replace korar jonno aivabe l
 var arrIndexofFunction = arrStarts.indexOf('habib');
 // console.log(arrIndexofFunction);
 
+var setIndex = [11, 12, 14, 15, 17, 18, 19];
+setIndex[1] = "hablu"; // index number diye array er vetore akta value ke replace kore dewar jonno aivabe likhete hoi
+// console.log(setIndex);
+
 
 
 
@@ -74,11 +78,19 @@ var pushPopvar = ['rahim', 'karim', 'habib', 'sabid', 'rabid', 'devid'];
 // console.log(pushPopvar);
 pushPopvar.pop(); // pop diye array er moddhe theke last element ke ber kore dewa hoi.
 // console.log(pushPopvar);
-
 // pushPopvar.shift(); // shift diye array er fist value take remove kore dewa hoi
 // pushPopvar.unshift('hellounshift'); // unshift diye array er fist a akta new value dewa hoi
+// console.log(pushPopvar);
+var pnumber = [22, 44, 66, 77, 88, 99]
+pnumber.push(199, 299, 399, 499, 599);
+pnumber.pop(); // pop use kore last er index howa value take remove kore dewa jai
+var spliceTest = pnumber.splice(2, 3); // splice diye array er vertor theke nirdisto songkhok value ke index diye kete niye asa jai, splice sue korle jei value gula kete ana hoi, segula r array er vetore thaken. 
+var sliceTest = pnumber.slice(0,3); // slice diyeo array er vetorer theke nirdiosto value ke index diye kete niye asa jai, but eta array er vetorer value sob gulake sekhae rekhe diye sudho tar value gulake niye ase dekhanor jonno.
+// console.log(sliceTest);
 
-console.log(pushPopvar);
+
+
+
 
 
 
