@@ -30,7 +30,7 @@ fruits[indexOfBanana] = 'watermelone'; /// this is another way
 
 ///////////////////// problem 3;  print the largest number of 13 , 79, 45 using if else condition
 
-var numb1 = 09;
+var numb1 = 19;
 var numb2 = 79;
 var numb3 = 59;
 
