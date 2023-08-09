@@ -95,3 +95,19 @@ var functionInput = height(incesInput);
 // console.log(functionInput);
 
 
+
+///Excercise: find even and odd number , if number is even - return true - else false ---------------------------------------------------------------------------------------------
+
+
+function oddEvenFiinder(number) {
+    const numberCalculation = number % 2
+    if (numberCalculation == 0) {
+        return true;
+    }else{
+        return false;
+    }
+
+}
+const myNumber = 3783;
+const finder = oddEvenFiinder(myNumber);
+// console.log(finder);
