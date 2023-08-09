@@ -70,4 +70,22 @@ for (let index = 0; index < findResultObjectsProperty.length; index++) {
     console.log(resultProperties, resultValues);
 }
 
+var friendsAge = {
+    habib: 33, 
+    mohin: 11,
+    tabib: 44, 
+    sohel: 54,
+    sujon: 65,
+}
+
+console.log('this is a line break -------------------------------------------------------------  new for loop starts here');
+
+
+
+for (const propertyNames in friendsAge) { // we can write anyting words to replace the varialbe 'propertyName'; 
+    var value = friendsAge[propertyNames];
+    console.log(propertyNames, value);
+
+}
+
 
