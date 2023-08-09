@@ -66,4 +66,32 @@ function multiFunctionsResultsSum(result1, result2){
 const result1 = multiFunctionsResultsSum ( 30, 40)
 const result2 = multiFunctionsResultsSum ( 90, 30)
 const finalResult = multiFunctionsResultsSum (result1, result2);
-console.log(finalResult);
+// console.log(finalResult);
+
+
+///Excercise: write a function called make_avg() which will take an theree integers and return the average of those values. 
+
+function make_avg(a, b, c){
+    const sum = a + b + c;
+    const average = sum / 3;
+    return average.toFixed(2);
+}
+
+const resultAverage = make_avg(33, 45, 22);
+// console.log(resultAverage);
+
+
+///Excercise: create a funciotn to calculate inches to feet ---------------------------------------------------------------------------------------------
+
+
+function height(ince) {
+    const oneFeet = 12;
+    const heightInFeet = ince / oneFeet;
+    const result = heightInFeet.toFixed(2);
+    return result;
+}
+var incesInput = 130 ;
+var functionInput = height(incesInput);
+// console.log(functionInput);
+
+
