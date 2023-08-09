@@ -30,7 +30,7 @@ function singara(singaraTaka) {
 
 var taka = 40;
 var singaraTakaPaid = singara(taka);
-console.log(singaraTakaPaid);
+// console.log(singaraTakaPaid);
 
 
 function eggPamu(eggTaka) {
@@ -42,5 +42,28 @@ function eggPamu(eggTaka) {
 
 var eggDam = 50;
 var eggGetFromShop = eggPamu(eggDam);
-console.log(eggGetFromShop);
+// console.log(eggGetFromShop);
 
+function assignmentNumbers(assignment1, assignment2, assignment3) {
+    var totalMarks = assignment1 + assignment2 + assignment3;
+    var myAverageMarks = totalMarks / 3;
+    return myAverageMarks;
+}
+
+var assignment1Marks = 60;
+var assignment2Marks = 54;
+var assignment3Marks = 60;
+
+var myTotalAssignmentAverage = assignmentNumbers(assignment1Marks, assignment2Marks, assignment3Marks);
+
+// console.log(myTotalAssignmentAverage);
+
+
+function multiFunctionsResultsSum(result1, result2){
+    const sum = result1 + result2;
+    return sum;
+}
+const result1 = multiFunctionsResultsSum ( 30, 40)
+const result2 = multiFunctionsResultsSum ( 90, 30)
+const finalResult = multiFunctionsResultsSum (result1, result2);
+console.log(finalResult);
