@@ -111,3 +111,39 @@ function oddEvenFiinder(number) {
 const myNumber = 3783;
 const finder = oddEvenFiinder(myNumber);
 // console.log(finder);
+
+///Excercise: find leap year---------------------------------------------------------------------------------------------
+
+function isLeapYearcheck(year) {
+    const yearCalculatoin = year % 4;
+    const yearResult = yearCalculatoin;
+    if (yearCalculatoin == 0) {
+        console.log('is a leap year')        
+    }else {
+        console.log('not a leap year');
+    }  
+}
+// isLeapYearcheck(2008);
+
+
+///Excercise: find number from an array and calculate sum of them---------------------------------------------------------------------------------------------
+
+
+
+function arraySumCalculation(number) {
+    let sum = 0;
+    for (let index = 0; index < number.length; index++) {
+        const element = number[index];
+        sum = sum + element;
+    }
+    return sum;
+    
+}
+const numbers  = [33, 44, 65, 78, 38, 40, 77, 20, 75];
+var arraySend = arraySumCalculation(numbers);
+
+// console.log(arraySend);
+
+
+
+
